@@ -1,11 +1,11 @@
 # Frequent-Itemsets
 The file contains the Apriori algorithm that uses to discover all frenquent itemsets.
 
-[Input]
+[Input]<br />
 The input file is a single line of nested JSON array, within the array, each basket is represented as a JSON array of integers representing item numbers. A sample file is as follows: <br /><br />
-[[1, 2], [1, 2, 3], [1, 3, 4], [2, 3, 4], [3, 4]] # 5 baskets <br />
+[[1, 2], [1, 2, 3], [1, 3, 4], [2, 3, 4], [3, 4]] # 5 baskets <br /><br />
 
-[Output]
+[Output]<br />
 Print out candidates and frequent itemsets in each pass, each per line as a SORTED list, until C(k) or L(k) is empty. An example is as follows: <br /><br />
 C1: [[1], [2], [3], [4], [5], [6], [7], [8], [9], [10], [11], [12]] <br />
 L1: [[1], [2], [3], [4], [5], [6]] <br />
