@@ -1,5 +1,7 @@
 # Frequent-Itemsets
-The file contains the Apriori algorithm that uses to discover all frenquent itemsets.
+This folder file contains the Apriori algorithm and SON algorithm that uses to discover all frenquent itemsets.
+
+Part I - Apriori:
 
 [Input]<br />
 The input file is a single line of nested JSON array, within the array, each basket is represented as a JSON array of integers representing item numbers. A sample file is as follows: <br /><br />
@@ -13,3 +15,5 @@ C2: [[1, 2], [1, 3], [1, 4], [1, 5], [1, 6], [2, 3], [2, 4], [2, 5], [2, 6], [3,
 L2: [[1, 2], [1, 3], [2, 3], [2, 6], [3, 5], [4, 5]] <br />
 C3: [[1, 2, 3]] <br />
 L3: [] <br />
+
+Part II - SON Algorithm:
