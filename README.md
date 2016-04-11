@@ -23,4 +23,11 @@ Input of this phase include two parts, one is chunks of baskets the same as phas
 
 [Output]<br />
 One line per each global frequent itemset and its global count, in the following format:<br />
-[[1, 2], 18] [[1, 3], 20] [[1], 31] [[2], 22] [[3], 22] [[4], 12] [[6], 15] [[2, 3], 13]
+[[1, 2], 18]<br />
+[[1, 3], 20]<br />
+[[1], 31]<br />
+[[2], 22]<br />
+[[3], 22]<br />
+[[4], 12]<br />
+[[6], 15]<br />
+[[2, 3], 13]
